@@ -6,19 +6,15 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://tianzeroone.github.io">
-  <title>Hexo</title>
+  <title>Tag: Hexo | Hexo</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="搭建一个博客github + hexo 搭建静态博客 环境准备git + node + Hexo + hexo-deploy-git 可以通过查看版本信息看是否安装成功 git 配置 SSH key **ssh-keygen -t rsa -C &quot;email&quot;**生成 ssh key  一般是在c:&#x2F;用户&#x2F;管理员&#x2F;.ssh  将 id_rsa.pub 的内容放在 github">
-<meta property="og:type" content="article">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://tianzeroone.github.io/2022/03/04/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:url" content="https://tianzeroone.github.io/tags/Hexo/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="搭建一个博客github + hexo 搭建静态博客 环境准备git + node + Hexo + hexo-deploy-git 可以通过查看版本信息看是否安装成功 git 配置 SSH key **ssh-keygen -t rsa -C &quot;email&quot;**生成 ssh key  一般是在c:&#x2F;用户&#x2F;管理员&#x2F;.ssh  将 id_rsa.pub 的内容放在 github">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-03-04T11:30:26.805Z">
-<meta property="article:modified_time" content="2022-03-04T11:50:24.795Z">
 <meta property="article:author" content="Tian cd">
 <meta name="twitter:card" content="summary">
   
@@ -211,207 +207,80 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-记录搭建一个博客" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
+            
+  
+  
     
-  <div class="article-entry" itemprop="articleBody">
     
-    <h1 id="搭建一个博客"><a href="#搭建一个博客" class="headerlink" title="搭建一个博客"></a>搭建一个博客</h1><p>github + hexo 搭建静态博客</p>
-<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>git + node + Hexo + hexo-deploy-git</p>
-<p>可以通过查看版本信息看是否安装成功</p>
-<h2 id="git-配置-SSH-key"><a href="#git-配置-SSH-key" class="headerlink" title="git 配置 SSH key"></a>git 配置 SSH key</h2><ol>
-<li>**<code>ssh-keygen -t rsa -C &quot;email&quot;</code>**生成 ssh key</li>
-</ol>
-<p><em><strong>一般是在c:/用户/管理员/.ssh</strong></em></p>
-<ol start="2">
-<li><p>将 <code>id_rsa.pub</code> 的内容放在 github 主页的个人设置里</p>
-</li>
-<li><p>重新配置账号</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;user&quot; # github用户名</span><br><span class="line">git config --global user.email &quot;xxx@163.com&quot; # github注册邮箱</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="搭建个人博客"><a href="#搭建个人博客" class="headerlink" title="搭建个人博客"></a>搭建个人博客</h2><p>参考官方文档 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
-<ol>
-<li><p>新建博客</p>
-<p><code>hexo init</code> 在一个空目录下</p>
-</li>
-<li><p>生成静态网页</p>
-<p><code>hexo g == hexo generate</code> </p>
-</li>
-<li><p>在上传之前最好预览一下 </p>
-<p><code>hexo s == hexo server</code> 开启预览端口</p>
-</li>
-<li><p>上传到 github</p>
-<p><code>hexo deploy = hexo</code></p>
-</li>
-</ol>
-<p><em><strong>在 hexo d 的时候报错 git 没有该指令，可能是 hexo-deployer-git 没有安装成功，或者安装错位置，要在博客目录下</strong></em></p>
-<h2 id="上传文章"><a href="#上传文章" class="headerlink" title="上传文章"></a>上传文章</h2><ol>
-<li><code>hexo n == hexo new</code> 来创建一个新的文章</li>
-</ol>
-
-    
-
-    
-    <div class="page-reward">
-      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
-        <div class="tooltip tooltip-east">
-          <span class="tooltip-item">
-            赏
-          </span>
-          <span class="tooltip-content">
-            <span class="tooltip-text">
-              <span class="tooltip-inner">
-                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
-                    class="icon icon-quo-right"></i></p>
-                <div class="reward-box">
-                  
-                  <div class="reward-box-item">
-                    <img class="reward-img" src="/img/alipay.jpg">
-                    <span class="reward-type">支付宝</span>
-                  </div>
-                  
-                  
-                  <div class="reward-box-item">
-                    <img class="reward-img" src="/img/weixin.jpg">
-                    <span class="reward-type">微信</span>
-                  </div>
-                  
-                </div>
-              </span>
-            </span>
-          </span>
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2022" class="archive-year">2022</a>
         </div>
-      </a>
-    </div>
+        <div class="archives">
     
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	
+<a href="/2022/05/30/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+        <time datetime="2022-05-30T02:11:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-30</time>
+</a>
 
-    
-    <div class="declare"> 
-      <ul class="post-copyright">
-        <li>
-          <strong>本文作者：</strong>
-          Tian cd
-        </li>
-        <li>
-          <strong>本文链接：</strong>
-          <a href="https://tianzeroone.github.io/2022/03/04/记录搭建一个博客/" title="" target="_blank">https://tianzeroone.github.io/2022/03/04/记录搭建一个博客/</a>
-        </li>
-        
-        <li>
-          <strong>版权声明： </strong>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+	
+	  <a class="archive-article-title" href="/2022/05/30/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" target="_blank">搭建一个博客</a>
+  
+    </h1>
+  
+
+
+        <div class="article-info info-on-right">
           
-          本博客所有文章除特别声明外，均采用 <a href="https://github.com/JoeyBling/hexo-theme-yilia-plus/blob/master/LICENSE" rel="external nofollow" target="_blank">MIT</a> 许可协议。转载请注明出处！
-        </li>
-        
-      </ul>
-    </div>
-    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">github</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-    
+          
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/技能//" class="article-tag-list-link color3">技能</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-    
 
-    
-    
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a> -->
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://tianzeroone.github.io/2022/03/04/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码"> -->
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-
-    
-    <div class="clearfix"></div>
-  </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-
-<nav id="article-nav">
   
   
-    <a href="/2022/03/04/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
+    </div></section>
   
-</nav>
 
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
           </div>
@@ -452,9 +321,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: true,
 		toc_hide_index: true,
@@ -538,6 +407,14 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">github</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
